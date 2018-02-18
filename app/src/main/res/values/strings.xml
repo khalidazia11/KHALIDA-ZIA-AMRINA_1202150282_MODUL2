@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Khalida Ice Cream</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="chosen">"Chosen: "</string>
+    <string name="nothing_clicked">onRadioButtonClicked: Nothing clicked.</string>
+    <string name="komposisi">komposisi</string>
+    <string-array name="tables_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+        <item>Meja 6</item>
+        <item>Meja 7</item>
+        <item>Meja 8</item>
+        <item>Meja 9</item>
+        <item>Meja 10</item>
+    </string-array>
+    <string-array name="menu_makanan">
+        <item>Strawberry</item>
+        <item>Vanila</item>
+        <item>Fruit</item>
+        <item>Ice Cream Cup</item>
+        <item>Coklat</item>
+        <item>Campur</item>
+        <item>Brownies</item>
+        <item>Bluebarry</item>
+        <item>Almond</item>
+        <item>Double Strawberry</item>
+    </string-array>
+    <string-array name="harga_makanan">
+        <item>20000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>30000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>30000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>30000</item>
+    </string-array>
+</resources>

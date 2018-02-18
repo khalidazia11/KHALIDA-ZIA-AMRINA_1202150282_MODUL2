@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width">0dp</dimen>
+    <dimen name="activity_padding_vertical">64dp</dimen>
+    <dimen name="activity_padding">6dp</dimen>
+    <dimen name="text_size">20dp</dimen>
+
+
+</resources>

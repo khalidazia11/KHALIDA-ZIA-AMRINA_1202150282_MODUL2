@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khalidaziaamrina.studycase2.DineIn"
+    android:background="@drawable/backgroun5">
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="212dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        android:text="No. Meja :"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="114dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="92dp"
+        android:background="#823562"
+        android:text="PILIH PESANAN"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        android:onClick="onClickOrder"/>
+
+
+</android.support.constraint.ConstraintLayout>
+
